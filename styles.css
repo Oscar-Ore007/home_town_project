@@ -56,6 +56,8 @@ h2 {
     padding: 10px 50px;
 }
 
+
+
 .activity {
     /* display: flex;
     justify-content: center;
@@ -65,18 +67,29 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-size: cover;
+    background: #F1FAEE;
     height: 100vh;
-    background:#F1FAEE;
     
 }
 
+#top {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -150px;
+  
+   
+}
 
-.events {
-    display: flex; 
-    justify-content: space-around;
-    align-items: start;
-    background: #A8DADC;
+
+
+
+.activity div {
+    width: 100% ;
 }
 
 /* .pictures {
@@ -88,22 +101,27 @@ h2 {
 #park {
     width: 200px;
     border-radius: 50%;
-
 }
 
 #sports {
     width: 200px;
     border-radius: 50%;
-    
-
 }
 
 #theatre {
     width: 200px;
     border-radius: 50%;
-    
-   
+}
 
+.text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #1D3557;
+    padding-top: 23px;
+    padding-bottom: 17px;
 }
 
 
@@ -129,12 +147,14 @@ h2 {
     box-shadow: 2px 2px 5px #1d3557;
 }
 
-h4 {
-    margin-top: 30px;
-    font-size: 30px;
-}
+
 
 h3 {
     font-size: 30px;
     margin-bottom: 30px;
+}
+
+h4 {
+    margin-top: 30px;
+    font-size: 30px;
 }
