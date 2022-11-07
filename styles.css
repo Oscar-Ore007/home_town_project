@@ -127,9 +127,17 @@ h2 {
 
 
 .avatar {
-    width: 150px;
+    width: 200px;
     border: 1px solid #457b9d;
     border-radius: 30px;
+    /* display: flex;
+    width: 30vw;
+    height: 50vh;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    padding: 50px 30px;
+    color: #1D3557; */
 }
 .guide-section{
     
@@ -142,7 +150,6 @@ h2 {
     background: #f1faee;
     color: #1d3557;
     border-bottom: 6px solid #e63946;
-    border-top: 6px solid #a8dadc;
     border-radius: 30px;
     box-shadow: 2px 2px 5px #1d3557;
 }
